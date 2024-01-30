@@ -1,0 +1,24 @@
+--------------Metodos cadenas
+
+-concat:
+    junta dos o mas cadenas y retorna una nueva
+
+-startsWith
+-includes
+-indexof
+-lastIndexof
+
+-padStart
+-padEnd
+-repeat
+
+-split
+-substring
+-toLowerCase
+-toUpperCase
+-toString
+-trim
+
+
+
+        5.17.05

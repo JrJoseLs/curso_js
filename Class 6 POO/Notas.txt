@@ -1,0 +1,89 @@
+15) POO (Programacion orientada a objetos)
+-definicion y usos
+    es un paradigma de la programacion, actualiza y mejora nuestra forma de programacion 
+        para objetos como en la vida real:
+
+        hay un moton de tipos de programacion:
+            estructurada, defenciva, funcional, orientada a objetos, etc...
+            pradigma = forma de crear soluciones, sistemas, sitio web, etc...
+-ejemplos
+
+
+16) Conceptos basicos de POO
+-Clases
+    es como una reseta, una plantilla que creamos para crear objetos
+        es como crear una fabrica de objetos, con sierta forma, que haga esto o aquello, etc...
+            
+-objetos
+    los objetos son los resultados de la Clases
+
+-Atributo
+    son las caracteristicas del objetos
+
+-Metodo
+    las cosas que puede hacer el objeto
+
+-contructor
+    es particularidad de la clase, que es una funciona obligatoria, que contruye las propiedades del objeto.
+
+-instanciacion
+    al final de todo la clase esta instaciada, estamo instanciando un objeto.
+
+
+--------------------------------------------------
+17) caracteristicas de la POO
+-Abstraccion
+    ex: si te digo tengo un auto sin mas, estoy omitiendo un monton de cosas
+        marca, color, vidrios, etc...
+    En POO abstraccion lo que hace es reducir lo mas que se pueda el objeto, simplemente sus componentes basicos
+            ex: peroo; raza, color y tamaño.
+            lo msa importante y fundamental
+
+-Modularidad
+    esto es resolver un problema grande, separandolo por partes.
+
+//-Jerarquia
+
+-Encapsulamiento
+    consiste en hacer todos los datos privados, que el usuario no pueda acceder a la data tan facil.
+        que la informacion no salga de ahi blablbal.
+
+-polimorfismo
+    consiste en ver como un objeto se comporta de manera distinta ante el mismo objeto.
+        ex: un animal le digo camina: (un objeto se comporta distinto a su metodo segun su propiedad)
+            un perro: camina distinto a un gato
+            un gato: camina distinto a un perro
+
+
+18) Otros conceptos de POO
+-herencia
+// si dentro de un metodo de la clase animal tengo ladrar, no todos los animales ladran
+    //otro concepto de relaciones, no tiene sentido que pongamos ladrar y para eso se usa 
+    // otro concepto que es la herencia
+
+
+----------------
+4.28.41
+--------------------
+-metodos estaticos
+    es un metodo que no necesita que la clase se defina para poder ser creado
+    "static"; podemos ejecutar eso antes de crear el objeto
+
+-metodos accesores (getters, setters)
+    los getters son para obtener un valor
+    los setters para modificarlos o definirlos
+
+
+
+
+
+
+--------------------ME QUEDE EN EL MINUTO 5:03:20---------------------------------------------
+
+
+
+parece que pa el prox cap tambien esta vaina xD....
+16) ForEach
+-Sintaxix y usos+
+-Ventajas respecto a for
+-desbentajas (break, continue)

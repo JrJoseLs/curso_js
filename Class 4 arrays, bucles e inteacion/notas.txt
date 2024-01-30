@@ -1,0 +1,103 @@
+Declaracion e inicializacion 
+condicion
+aumento o decremento..
+
+
+11) Arrays o arreglos
+-definicion y usos
+	un contenedor con diferentes elementos dentro de el 
+		ex: una caja con lapices, una bolsa con ropa-zapatos-sabanas y estos tienen posiciones 1 a infinito , etc...
+		
+		Los Arrays vienen hacer objetos, caracteristicas de todos los lenguajes, 
+		como guardar una variable, en los arrays podemos guardas muchos datos.
+			a diferencia de una variable que solo guarda 1, en los arrays podemos guardar cualquier tipo de datos.
+
+		
+
+-formas de crear un array
+	let array [elemento 1, 2, 3]
+		el elemento uno estaria en la posicion 0, el 2 en la 1, etc...
+		para llamarlo cada elemento:
+			document.write(array[0])
+			document.write(array[1])
+					etc...
+--------------------------------------------------------------------
+
+12) Arrays asociativos
+	-definicion
+		tambien son objetos, se parecen mas al formato json (trabaja con intercambio de data "informacion")
+			es ocmo tener un valor asociado, cuando sea llamado el elemnto, me muestra el dato asociado.
+
+	-sintaxix y usos
+		ex:
+			let pc = {
+				nombre: "intelPc",
+				procesador: "intel core I7"
+				etc...
+			}
+			document.write(pc["nombre"])
+
+			es mas intuitivo
+
+--------------------------------------------			
+
+13) Bucles e interaccion
+-definicion y usos
+	son parecidos a los condicionales, solo que preguntana la misma condicion todo el tiempo
+
+-sentencia while
+	"solo que preguntana la misma condicion todo el tiempo"
+		ex: pero en el bucle lo que sucede es preguntar si la condicion es verdadera, si se cumple
+			va a volver a preguntar a la condicion y regresa y pregunta si se sigue cumpliendo, y vuelve y ejecuta y repite
+		el while primero pregunta y luego se ejecuta.
+
+
+-sentencia do while
+	este es distinto, el do while, hace y luego pregunta
+
+-sentencia break (de las cosas mas importantes en un while)
+	el break termina la sentencia...
+		ex: lo mando a buscar en la base de datos de cierto usuario y cuando llegue ahi lo detiene
+
+-sentencia for
+	es exactamente igual al while, pero este es un bucle determinado. (finito/infinito ... etc.)
+		hay bucles cuantas vueltas va a dar ej; while siempre se ejecuta, a difrencia del for, for in, for of
+			se ejecutan las veces que nosotros digamos.
+
+Declaracion e inicializacion 
+condicion
+aumento o decremento..
+
+
+-sentencia continue
+		continue salta interaccion
+
+-sentencia for in
+	for in y for of:
+		lo que hacen es ahorrarnos "for (i = 0; i < 6; i++)"
+		recorre toda la sentencia y lee la posicion del valor
+-sentencia for of
+		recorre toda la sentencia y lee el valor del la posicion
+
+*-------------
+-sentencia label
+	permite asociar un bucle, cualquier bucle (exepfo for-ich qcy) a un nombre para poder termianrlo cuando queramos.
+	
+
+------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

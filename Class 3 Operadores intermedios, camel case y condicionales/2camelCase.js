@@ -1,0 +1,3 @@
+// solo definicion, esto es como trabaja js
+    //ex: holaComoEstas...
+    //exR = document.getElementById()

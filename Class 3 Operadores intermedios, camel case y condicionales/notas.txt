@@ -1,0 +1,52 @@
+8) Operadores (intermedio)
+- operadores de comparacion:
+        comparan 2 valores y devuelben un Boolean que representa la relacion de sus valores.
+                (true or false)
+                ex:
+                    let numero = 23;
+                    let numero2 = 13;
+                    document.write(numero == numero2)
+
+- Operadores Logicos:
+        se basan en los comparadores de comparacion para debolver una que otra cosa
+        Nos devuelben resultado a partir de que se cumpla o no una condicion, en booleano y sus operadores son valores logicos o asimilables a ellos.
+                (treu or false) "(AND (&&)), (OR (||)), (NOT (!))"
+
+
+
+ 
+-------------------------------
+9) Camel case: 
+    - definicion
+        (la 1ra palabra con miniscula y las demas mayuscula ex:---(decimeAlgo))
+                
+    - Usos
+        es la forma en la que trabaja js "CAMEL CASE", ex2 = holaComoEstas.
+                        
+    - Ejemplos
+        exR = document.getElementById()
+
+
+
+
+--------------------------------------
+
+10) Condicionales (de lo mas importantes junto con los operadores)
+    - Definicion y Usos
+        son sentencias que nos permiten ejecutar algo, un bucle, bloque etc...
+
+    - if 
+        para ejecutar una sentencias 
+
+    - else if
+        para ejecutar si no se ejecuta el if (osea si lo anterior no se cumple...)
+    
+    - else
+        si nada de lo anterior se cumple usamos else...
+
+
+
+
+
+
+Aqui termina el 1er capitulo....

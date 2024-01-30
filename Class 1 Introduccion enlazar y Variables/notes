@@ -1,0 +1,118 @@
+https://www.youtube.com/watch?v=z95mZVUcJ-E&t=1170s
+
+Introcuccion: (Que es javascript?)
+    -Lenguaje de programacion
+    -Interpretado
+    -orientado a objetos
+    -Imperativo
+    -case sensitive (upper and lower case)
+    -Basado en prototipos / instancias / classless
+    -Lenguaje dinamico
+
+    ECMASCROPT (5.1 y 6, 7, 8, next)
+
+
+Vainas del editor de texto:
+    El usa sublime, yo use code...
+        vale verga
+
+
+--------------------------
+2- Para que se usa?
+    Dinamismo de los sitios web: (dinamico del lado del cliente no servidor)
+    El servidor se trabaja con:
+    Servidor NodeJs
+        con tecnologias Frontend como Angular, react o Vue.Js
+    
+    Otros usos comunes:
+        -Inteligencia artificial
+        -Placas electronicas (jonny five)
+        -Mobile Apps
+        -Desktop Apps
+            Etc...
+    Lo comun es sitios web
+        backend con nodejs
+        frontend con angular, vue.js, react, etc...
+
+
+---------------------------------------------------
+3- Formas de enlazar java script
+    - en linea: osea en una etiqueta
+        ex: <h1 onclick="alert ('hola')">Rancio</h1>
+
+            <script type="text/javascript">
+                alert('hola')
+             </script>
+    - Enlazar en archivo externo: (forma mas correcta);
+            <script src="codigo.js"></script>
+
+    - Enlazar en link como css:
+
+    - Enlazar con requier: (comun con nodejs)
+             se vera mas adelante o en el curso de nodejs.
+
+
+------------------------------------------------.
+4- Variables:
+        que es una Variables?
+             espacio guardado en memoria.
+        I) Tipos de datos:
+             string (cadenad e texto), number, boolena) (IMG)
+             string = como es texto puede llevar comillas, comillsa simples etc..
+                string = "cadena de texto"
+
+             En cambio number simplemente sin nada
+                number = 19
+        
+            Lo bolean simplemente 0 y 1, se pone true o false
+             bolean = false or true
+
+        II) Casos especiales de datos: undefined, Null, Nan;
+             Nos hablan de la variable no esta definida o hay un error.
+             la podemos modificar a lo largo del tiempo no c que...
+    
+    tenemos 3 formas de declarar una variale.
+                    Var, let y const
+                Esto trabaja con bloques
+                    ex: "var" alcanza todo el bloques 
+                        en cambio "let", solo alcanza el bloque en el que se define
+                        const = es constante, y siempre se queda como se declara, no cambia, si lo intento da error.
+
+    
+    Para declarar una variable no le tenemos que dar valor, solo definir que tipo de alcance va a tener.
+
+    cuando el programa nos arroja undefined, es que la variable esta pero no esta definida y no tiene valor.
+    --------------------------
+    SCOPE
+    Scope, es el alcance, si creamos una variable en un bloque, el alcance de esa variable estara limitado a ese bloque.
+            
+    Las multiples variables....
+
+    Hoisting:
+        habla de las fases de creacion y ejecucion.
+
+    Null y nand
+        Null = indica que la variable tiene un valor pero esta vacia.
+        Nan = mensaje que sale cuando intentas hacer operaciones sin numeros.
+
+    Pruebas prompt
+        es una de las APIS de js que permite dar un dato.
+            es como alert y pide una respuesta a cambio.
+            o devuelve un valor que nosotros escribumos.
+        para guardar lo que le escribumos definimos una variable
+             ex: 
+            let nombre = prompt("dime tu nombre")
+            alert (nombre)
+
+
+
+    -------------------------------------------
+    
+Proxima clase operadores...
+
+
+
+
+
+
+

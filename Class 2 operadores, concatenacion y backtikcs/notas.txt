@@ -1,0 +1,70 @@
+5- Operadores
+    existen 2 aritmeticos y asignacion 
+        aritmeticos: toman valores numericos (literales o variables) como sus operandos y retornan un numero unico.
+
+        I) asignacion: Lo Operadoresde asignacion asigna valor al operando de la izquierda basado en el valor de la derecha.
+            x = y, x += y, x = x + y etc... (son muchos)
+            (suma, resta, multiplicacion, divicion, etc...)
+
+----
+document.write(var, let or const)
+    es como un alert, pero este nos escribe todo el documento...
+    alert arroja una alerta y document... 
+------
+
+el valor de asignacion recto % hace:
+    divide la variable por el numero asignado. (divide po entero y muestra el resto de una divicion)
+    redondea al numero mas cercano hacia abajo.
+
+Exponencializacion (**=):
+    simplementa eleva a la potencia.
+
+Lo demas son de asignacion avanzado y se trabaja con operaciones binarias, bits y demas
+        solo se usa para cosas muy puntuales
+
+-------------------
+
+    II) operaciones aritmeticos:
+        suma, decremento o restas, divicion,resto o remainder (&), etc...
+        resto o remainder
+
+
+------------------------------------------------------------------------------------
+
+
+6) concatenacion: 
+        (es unir string basicamente), unir 2 cadenas de texto.
+
+ -definicion y ejemplo
+ -con el signo +
+ para numeros forzamos string ("" + 9 + 4)
+------
+ -Con concatenacion-con backtikcs y la variable entre ${}
+            esta es la forma correcta de concatenar:
+                ex: nombre = "Jonh Doe";
+                    frase = `Soy  ${nombre} Y estoy caminando`;
+                    document.write(frase);
+
+                tambien se puede: (esto gracias a los backtiks, acentos fuertes o graves)
+                    nombre = "Jonh Doe";
+                    frase = `Soy  
+                    ${nombre} 
+                    Y estoy caminando`;
+                    document.write(frase);
+
+            Con los backtiks o acentos fuertes o graves.
+                podemos escribir html dentro de js.
+
+---------------------------------------------------------------------------
+7) Backtikcs (bloquote o acento grave) y escape
+-Sin backtikcs: "linea 1\n\
+                        linea 2"
+- Con backticks: ´´´´ linea 1
+                        linea 2`
+
+- Definicion
+- Escaoe de cimullas simples
+- Escape de comillas dobles
+
+
+

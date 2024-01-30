@@ -1,0 +1,75 @@
+un bloque empieza: {
+y termina: }
+
+14) Funciones
+-definicion y usos
+    es como una porcion de codigo
+        Con las funciones podemos llamar una porcion de 
+            codigo y llevar o ejecurtalo en otra.
+
+    
+
+-------------------------------------------
+-Formas de crear funciones (y llamarlas)
+
+    // ejemplo si estamos creando un juego y queremos que el boss 
+    // tenga nuestro mismo nivel, con funcion ahorramos todo ese codigo
+    // al igual que con un cohe etc...
+
+    // si quiero hacerlo mas veces.
+// uso las funciones y no debo repetir el codigo.
+// simplemente llamarla desde otro bloque.
+
+// Esto no se ejecuta simplente se declara la funcion
+function saludar (){
+let respuesta = prompt ("Hola, que tal tu dia?");
+    if (respuesta == "bien") {
+        alert("Me alegro")
+    } else {
+        alert("Que pena")
+    }
+}
+// para ejecutarla 
+saludar()
+// para que pregunte mas de una vez..
+//simplemente repito
+saludar()
+
+--
+Tambien podemos asignar las funciones en variables
+
+------------------------------------------
+
+-return
+    Las funciones tienen 2 partes, una donde las declaramos y otra donde las llamamos
+    c/u con su carracteristicas.
+
+    el return sirve para debolver un valor, y convierte lo declarado en un tipo de datos.
+        si la funcion returna un valor finaliza la funcion
+            es como el break, 
+
+
+-pramatros
+    Las funciones no son funciones sin parametros (osea sin que se pueda variar lo que hacen)
+
+
+
+-scope
+    es cuando creamos una variable afuera, simplemente no existe.
+    Las funciones tienen scope global, las variables que se crean dentro de las funciones tienen un scope regional
+        variables que existen dentro de la funcion 
+
+-funciones flecha
+    como ya vimos existern varias formas de crear una .
+        funcion se convierte en =>,
+        y si usamos 1 parametro no es necesario poner parentesis
+
+
+
+
+esto proximo cap
+programacion orientada objetos (POO) + :
+15) ForEach
+-Sintaxix y usos+
+-Ventajas respecto a for
+-desbentajas (break, continue)
